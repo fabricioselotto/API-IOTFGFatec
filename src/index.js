@@ -17,4 +17,4 @@ app.use(cors())
 app.use(express.json())
 app.use(router)
 
-app.listen(process.env.PORT || 3000, () => console.log('Server started'))
+app.listen(3000, () => console.log('Server started'))
